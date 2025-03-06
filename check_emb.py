@@ -2,21 +2,21 @@ import numpy as np
 
 
 
-# 定义文件路径和参数
+# define file path and parameters
 
 emb_file = 'embeddings.mmap'
 
 paths_file = 'paths.mmap'
 
-dataset_size = 1000  # 数据集大小
+dataset_size = 1000  
 
-emb_size = 2048      # 特征维度
+emb_size = 2048      
 
-path_str_type = 'U200'  # 路径字符串类型
+path_str_type = 'U200'  
 
 
 
-# 加载 embeddings.mmap
+# load embeddings.mmap
 
 embeddings = np.memmap(emb_file, dtype='float32', mode='r', shape=(dataset_size, emb_size))
 

@@ -109,7 +109,7 @@ def compute_centroids(
         logger.info(f"Time for clustering (mins): {(time.time()-start_time)/(60):.2f}")
 
         # -- Move kmeans index to cpu to save it
-        kmeans_index = faiss.index_gpu_to_cpu(kmeans.index)
+        kmeans_index = kmeans.index
         logger.info(f"faiss kmeans index to store: {type(kmeans_index)}")
         ## -- Save faiss kmeans index object as pickle file
         with open(kmeans_obj_file_loc, "wb") as file:

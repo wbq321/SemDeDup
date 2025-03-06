@@ -1,0 +1,163 @@
+{   'dataset_size': 2500,
+    'device': 'cpu',
+    'emb_size': 2048,
+    'embs_memory_loc': '/scratch/user/u.bw269205/SemDeDup/embeddings.mmap',
+    'eps_list': [0.1, 0.2],
+    'num_clusters': 50,
+    'save_loc': '//scratch/user/u.bw269205/SemDeDup/results_slurm',
+    'seed': 1234,
+    'sorted_clusters_path': '/scratch/user/u.bw269205/SemDeDup/clustering/sorted_clusters',
+    'which_to_keep': 'hard'}
+Processing clusters from 0 to 50
+cluster_size:  37
+Step time: 0.01542973518371582(s)
+DONE cluster:  0
+cluster_size:  46
+Step time: 0.00039696693420410156(s)
+DONE cluster:  1
+cluster_size:  99
+Step time: 0.0009043216705322266(s)
+DONE cluster:  2
+cluster_size:  31
+Step time: 0.0003485679626464844(s)
+DONE cluster:  3
+cluster_size:  28
+Step time: 0.0002543926239013672(s)
+DONE cluster:  4
+cluster_size:  21
+Step time: 0.00024509429931640625(s)
+DONE cluster:  5
+cluster_size:  20
+Step time: 0.0002319812774658203(s)
+DONE cluster:  6
+cluster_size:  12
+Step time: 0.0004489421844482422(s)
+DONE cluster:  7
+cluster_size:  115
+Step time: 0.0009305477142333984(s)
+DONE cluster:  8
+cluster_size:  37
+Step time: 0.0003485679626464844(s)
+DONE cluster:  9
+cluster_size:  34
+Step time: 0.00029587745666503906(s)
+DONE cluster:  10
+cluster_size:  34
+Step time: 0.00031185150146484375(s)
+DONE cluster:  11
+cluster_size:  65
+Step time: 0.0005490779876708984(s)
+DONE cluster:  12
+cluster_size:  21
+Step time: 0.00023674964904785156(s)
+DONE cluster:  13
+cluster_size:  64
+Step time: 0.0005283355712890625(s)
+DONE cluster:  14
+cluster_size:  63
+Step time: 0.0005147457122802734(s)
+DONE cluster:  15
+cluster_size:  104
+Step time: 0.0008752346038818359(s)
+DONE cluster:  16
+cluster_size:  89
+Step time: 0.0007441043853759766(s)
+DONE cluster:  17
+cluster_size:  67
+Step time: 0.0005679130554199219(s)
+DONE cluster:  18
+cluster_size:  28
+Step time: 0.0002472400665283203(s)
+DONE cluster:  19
+cluster_size:  17
+Step time: 0.00022077560424804688(s)
+DONE cluster:  20
+cluster_size:  49
+Step time: 0.0004429817199707031(s)
+DONE cluster:  21
+cluster_size:  128
+Step time: 0.001043081283569336(s)
+DONE cluster:  22
+cluster_size:  67
+Step time: 0.0006153583526611328(s)
+DONE cluster:  23
+cluster_size:  48
+Step time: 0.00035858154296875(s)
+DONE cluster:  24
+cluster_size:  73
+Step time: 0.0005815029144287109(s)
+DONE cluster:  25
+cluster_size:  22
+Step time: 0.00025391578674316406(s)
+DONE cluster:  26
+cluster_size:  25
+Step time: 0.00023174285888671875(s)
+DONE cluster:  27
+cluster_size:  24
+Step time: 0.0002474784851074219(s)
+DONE cluster:  28
+cluster_size:  30
+Step time: 0.0002932548522949219(s)
+DONE cluster:  29
+cluster_size:  41
+Step time: 0.0003216266632080078(s)
+DONE cluster:  30
+cluster_size:  41
+Step time: 0.00035381317138671875(s)
+DONE cluster:  31
+cluster_size:  91
+Step time: 0.0007276535034179688(s)
+DONE cluster:  32
+cluster_size:  96
+Step time: 0.0007112026214599609(s)
+DONE cluster:  33
+cluster_size:  36
+Step time: 0.00031447410583496094(s)
+DONE cluster:  34
+cluster_size:  7
+Step time: 0.0001971721649169922(s)
+DONE cluster:  35
+cluster_size:  29
+Step time: 0.0002601146697998047(s)
+DONE cluster:  36
+cluster_size:  9
+Step time: 0.000171661376953125(s)
+DONE cluster:  37
+cluster_size:  53
+Step time: 0.0004420280456542969(s)
+DONE cluster:  38
+cluster_size:  124
+Step time: 0.0009975433349609375(s)
+DONE cluster:  39
+cluster_size:  165
+Step time: 0.0015482902526855469(s)
+DONE cluster:  40
+cluster_size:  36
+Step time: 0.0002982616424560547(s)
+DONE cluster:  41
+cluster_size:  15
+Step time: 0.00018835067749023438(s)
+DONE cluster:  42
+cluster_size:  2
+Step time: 0.0001850128173828125(s)
+DONE cluster:  43
+cluster_size:  116
+Step time: 0.0009369850158691406(s)
+DONE cluster:  44
+cluster_size:  10
+Step time: 0.00017142295837402344(s)
+DONE cluster:  45
+cluster_size:  30
+Step time: 0.00027942657470703125(s)
+DONE cluster:  46
+cluster_size:  43
+Step time: 0.000335693359375(s)
+DONE cluster:  47
+cluster_size:  31
+Step time: 0.0002486705780029297(s)
+DONE cluster:  48
+cluster_size:  27
+Step time: 0.0002994537353515625(s)
+DONE cluster:  49
+DONE in 0.01 minutes, Average Step time 0.01(s)
+

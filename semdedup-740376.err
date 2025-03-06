@@ -1,0 +1,21 @@
+usage: semdedup_local.py [-h] --embs_memory_loc EMBS_MEMORY_LOC --dataset_size
+                         DATASET_SIZE [--emb_size EMB_SIZE]
+                         --sorted_clusters_path SORTED_CLUSTERS_PATH
+                         --save_loc SAVE_LOC --num_clusters NUM_CLUSTERS
+                         [--which_to_keep {hard,random,easy}]
+                         [--eps_list EPS_LIST [EPS_LIST ...]] [--seed SEED]
+                         [--device DEVICE]
+semdedup_local.py: error: the following arguments are required: --embs_memory_loc, --dataset_size, --sorted_clusters_path, --save_loc, --num_clusters
+
+ERROR conda.cli.main_run:execute(124): `conda run python /scratch/user/u.bw269205/SemDeDup/semdedup_local.py` failed. (See above for error)
+/var/spool/slurmd/job740376/slurm_script: line 32: --embs_memory_loc: command not found
+/var/spool/slurmd/job740376/slurm_script: line 34: --dataset_size: command not found
+/var/spool/slurmd/job740376/slurm_script: line 38: --embs_memory_loc: command not found
+/var/spool/slurmd/job740376/slurm_script: line 42: --dataset_size: command not found
+/var/spool/slurmd/job740376/slurm_script: line 46: --emb_size: command not found
+/var/spool/slurmd/job740376/slurm_script: line 50: --sorted_clusters_path: command not found
+/var/spool/slurmd/job740376/slurm_script: line 54: --save_loc: command not found
+/var/spool/slurmd/job740376/slurm_script: line 58: --num_clusters: command not found
+/var/spool/slurmd/job740376/slurm_script: line 62: --which_to_keep: command not found
+/var/spool/slurmd/job740376/slurm_script: line 66: --eps_list: command not found
+/var/spool/slurmd/job740376/slurm_script: line 70: --device: command not found

@@ -43,7 +43,7 @@ def extract_pruned_data(
             cluster_i = cluster_i[semdedup_pruning_tables["indices"]]
         ## -- retrieve only the examples we want and add to the list.
         dedup_cluster = cluster_i[images_to_keep_or_remove]
-        example_paths += dedup_cluster[:, IMAGE_NAME_INDEX].astype("<U32").tolist()
+        example_paths += dedup_cluster[:, IMAGE_NAME_INDEX].astype("U200").tolist()
 
     with open(output_txt_path, "w") as fp:
         fp.write("\n".join(example_paths))
